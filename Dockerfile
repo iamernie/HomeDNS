@@ -3,7 +3,7 @@ LABEL maintainer="ernie@iamernie.ca"
 # webproc release settings
 ENV WEBPROC_VERSION1 v0.3.0
 ENV WEBPROC_VERSION2 0.3.0
-ENV WEBPROC_URL https://github.com/jpillora/webproc/releases/download/v0.3.0/webproc_0.3.0_linux_amd64.gz
+ENV WEBPROC_URL https://github.com/jpillora/webproc/releases/download/$WEBPROC_VERSION1/webproc_WEBPROC_VERSION2_linux_amd64.gz
 # fetch dnsmasq and webproc binary
 RUN apk update \
 	&& apk --no-cache add dnsmasq \
