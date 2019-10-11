@@ -1,8 +1,9 @@
-FROM alpine:edge
+#FROM alpine:edge
+FROM arm64v8/alpine
 LABEL maintainer="ernie@iamernie.ca"
 # webproc release settings
 ENV WEBPROCVERSION 0.3.0
-ENV WEBPROC_URL https://github.com/jpillora/webproc/releases/download/v0.3.0/webproc_0.3.0_linux_amd64.gz
+ENV WEBPROC_URL https://github.com/jpillora/webproc/releases/download/v0.3.0/webproc_0.3.0_linux_arm64.gz
 # fetch dnsmasq and webproc binary
 RUN apk update \
 	&& apk --no-cache add dnsmasq \
