@@ -1,7 +1,7 @@
 # HomeDNS 4 Raspberry Pi 4
 
 dnsmasq in a docker container, configurable via a [simple web UI](https://github.com/jpillora/webproc)
-Based off of [jpillora/docker-dnsmas](https://github.com/jpillora/docker-dnsmasq)
+Based off of [jpillora/docker-dnsmasq](https://github.com/jpillora/docker-dnsmasq)
 
 ### Usage
 
