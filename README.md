@@ -1,6 +1,7 @@
-# docker-dnsmasq
+# HomeDNS 4 Raspberry Pi 4
 
 dnsmasq in a docker container, configurable via a [simple web UI](https://github.com/jpillora/webproc)
+Based off of [jpillora/docker-dnsmas](https://github.com/jpillora/docker-dnsmasq)
 
 ### Usage
 
@@ -36,7 +37,7 @@ dnsmasq in a docker container, configurable via a [simple web UI](https://github
    	-e "HTTP_USER=foo" \
    	-e "HTTP_PASS=bar" \
    	--restart always \
-   	jpillora/dnsmasq
+   	iamernie/HomeDNS
    ```
 
 1. Visit `http://<docker-host>:5380`, authenticate with `foo/bar` and you should see
